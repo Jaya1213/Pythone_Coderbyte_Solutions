@@ -1,0 +1,9 @@
+import itertools
+def ArrayAdditionI(arr):
+  maxArr=max(arr)
+  for i in range(2,len(arr)):
+    for j in itertools.combinations(arr,i):
+      if sum(j)==maxArr:
+        return 'true'
+  return'false'
+print(ArrayAdditionI(input())

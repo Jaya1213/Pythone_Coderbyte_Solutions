@@ -1,0 +1,7 @@
+def Consecutive(arr):
+  maxArr=max(arr)
+  minArr=min(arr)
+  lenArr=len(arr)
+return maxArr-minArr-lenArr+1
+
+print(Consecutive(input())
